@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!-- Link to bootstrap examples -->
+<!-- webGL   Check out-->
+<!-- http://getbootstrap.com/getting-started/#download -->
+<!-- https://www.w3schools.com/bootstrap/default.asp -->
+<!-- http://www.quackit.com/css/css_color_codes.cfm -->
+<!-- http://qrohlf.com/trianglify-generator/ -->
+<!-- https://snorpey.github.io/triangulation/ -->
+
+<!-- Can share website temporarily-->
+<!-- https://codepen.io/ -->
+
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Blair Duncan Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Fonts -->
+  <!-- https://fonts.google.com/ -->
+  <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Baloo|Barrio|Chewy|Inknut+Antiqua|Permanent+Marker|Ravi+Prakash" rel="stylesheet">
+
+
+  <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
+
+<!-- Navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home"></span> Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#who">WHO AM I?</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#">WHERE</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container (Title Page) -->
+<div class="container-fluid bg-1 text-center">
+  <h1 class="margin">Blair Duncan</h1>
+  <img src="images/IMG_3133.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h2>Mechatronics Engineer</h2>
+</div>
+
+<!-- Second Container (About me) -->
+<div class="container-fluid bg-2 text-center" id="who">  
+  <h2 class="margin">Who Am I?</h2>
+  <p>I am a graduate <a href="https://en.wikipedia.org/wiki/Mechatronics" target="_blank" data-toggle="tooltip" data-placement="bottom" title="What is Mechatronics?">Mechatronics</a> engineer (hons) from The University of Auckland that is currently looking for full time work. I have an interest for everything tech related and am particularly interested in software development, namely embedded.
+  Outside of engineering, I have a keen interest in sport and am part of the Hibiscus Dairy Flat Hockey club and have been for the last 5 years and played social basketball and volleyball at University. Although hockey is my main sport, I was involved in basketball, baseball, table tennis and tennis in highschool and could frequently be found windsurfing at Lake Pupuke in the weekends.
+  <br />
+  <br />
+  During my time at University, I completed a number of projects, some of which will be displayed and explained in this portfolio. On top of these projects, I also completed an entirely self driven project at home which involved the design, development and assembly of an electric skateboard which can be seen in more detail <a href="#">here</a>.
+  After leaving university, I went to the USA for a holiday with family. Upon return, I began looking for work and sought to further my software related abilities by completing an online course on <a href="https://www.edx.org/" target="_blank">edX.org</a>. This course taught me how to create websites using HTML, CSS and JavaScript and I sought to improve my JavaScript skills further by creating a few simple games such as Tic Tac Toe and Snake.
+  I have also been assisting a local primary school by teaching both teachers and a few year 5/6 students how to use the two 3D printers they recently purchased.
+  </p>
+  <a href="PDF/Resume.pdf" target = "_blank" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-user"></span> View Resume
+  </a>
+</div>
+
+<!-- Third Container (Projects) -->
+<div class="container-fluid bg-3 text-center" id="projects">    
+  <h2 class="margin">Notable Projects</h2>
+  <div class="row">
+    <!-- Robotic Exoskeleton -->
+    <div class="col-sm-4 ">
+      <h3>Improvement of an Existing Robotic Exoskeleton</h3>
+      <p class="text-justify margin3">
+        In the final year of an engineering degree, students are required to pair up and complete a year long project to demonstrate the knowledge and skills gained during our time at uiversity. The project my partner and I chose was to improve upon an already existing rehabilitation exoskeleton device. After completing a comprehensive literature review, two key aspects were identified as being under developed in both the exoskeleton we had permission to work on and the general robotic exoskeleton field.
+        One of these aspects was the addition of additional degrees of freedom to the exoskeleton to allow the device to follow a persons gait cycle more precisely. For me, this meant development of the exoskeletons back support as previously it only incorporated a single degree of freedom to allow a persons back to move up and down. After a significant amount of research into the motion of the back during gait and how these movements are affected in a stroke patient, three motions were identified as 'important to control'.
+        However due to time and cost constraints, only two of these were designed for in this project (see section 3.1.1 for full report). The final design of the back support can be seen below implementing the two new degrees of freedom, as well as the original motion implemented. For further information about the design and to see it's implementation, click the 'View Full Report" button below.
+      </p>
+      <img src="images/backsupport.png" class="img-responsive margin center-block" style="width:90%" alt="Image">
+      <a href="PDF/FinalYearReport.pdf" target = "_blank" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-file"></span> View Full Report
+  </a>
+    </div>
+    <!-- Slam Robot -->
+    <div class="col-sm-4">
+      <h3>Autonomous SLAM Robot</h3>
+      <p class="text-justify margin3">
+        Simultaneous Localisation and Mapping (SLAM) is a complex problem in which our robotic vehicle (shown below) is required to construct and update a map of an unknown environment while simultaneously keeping track of it's own location.
+        For this project, we were supplied with a partially completed robot consisting of four motors attached to Mecanum wheels and an Arduino Mega attached to a simple chasis. We were also supplied with limited spare hardware including four infrared sensors, one ultrasonic sonar, a spare servomotor, a Motion Processing Unit (MPU) and a blue tooth module for communication with a computer or phone.
+        To begin with, we needed to the placement of our additional hardware and perform calibrations on all the sensors. Our aim in the sensor placement was to carefully monitor the front of the robot for obstacles and to monitor a single side of the robot to ensure it remained on the correct path and to check when obstacles had been successfully avoided.
+        Our solution tasked the robot to first find a wall in which is can oriente itself and then travel down the wall to find a corner being careful not to mistake any obstacles as walls. From there it would attempt to follow the walls and spiral towards the center of the room still being concious of obstacles. Once the 'run' was complete, the robot would stop and we would be able to view a finished map of the environment.
+      </p>
+      <img src="images/SLAMBOT.png" class="img-responsive margin" style="width:100%" alt="Image">
+      <a href="PDF/SLAMReport.pdf" target = "_blank" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-file"></span> View Full Report</a>
+    </div>
+    <!-- Electric Skateboard -->
+    <div class="col-sm-4">
+      <h3>Electric Skateboard - Home Project</h3>
+      <p class="text-justify margin3">
+        A self driven project in which I designed and built an electric skateboard. The purpose of this project was to further my engineering related abilities and to complete an entire project start to finish; something rarely seen in University projects while also producing something enjoyable to use. This projected was completed during my final semester, it was however, not university related. 
+        To begin with, a large amount of research was done into how an electric skateboard worked and the components it needed. From there I was able to determine which components best suited my aims while also ensuring all the components were able to be succesfully meshed together. The final design utilises a brushless DC motor, a Vedder ESC, two 4S 5000mAh 20C lithium polymer batteries run in series and a HK-GT2E 2-channel radio system. The board has regenerating braking and has been equipped with an anti-spark loop key which provides a low cost DIY alternative to an expensive anti-spark push-button. 
+        The finished design is highly configurable, can reach up to approximately 32 km/h, is able to run for 2 hours before needing to be recharged and is capable of going up and down hills with a respectable slope.
+      </p>
+      <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-4 text-center" id="workExperience">
+  <h2 class="margin">Work Experience</h2>
+  <div class="row">
+    <div class="col-sm-4">
+      <!--Smith and Davies-->
+      <h3>Smith and Davies</h3>
+      <p>
+        Smith and Davies was a large transportation and construction company that operated in the Auckland region. At Smith and Davies I worked both casually and full time for a fixed period. During the casual periods I was employed to clean both the inside and outside of their office premises. During this time I was also employed as a photocopier to create both new hardcopies and online copies of receipts.
+        During the 2014/2015 summer holidays I was employed as a labourer on a construction site where my main role was to assist the two Smith and Davies excavator operators. For this, I was required to attend a Site Safe course on construction site safety. As a result of this site safe course, working closely with heavy machinery and the fact that the site we were working on was contaminated, I developed an appreciation for safety practices.
+      </p>
+    </div>
+    <!--CDNZ-->
+    <div class="col-sm-4">
+      <h3>Cubic Defense New Zealand</h3>
+      <p>
+        Cubic Corporation is the parent company three businesses, Cubic Global Defense, Cubic Transportation Systems and Cubic Mission Solutions. During the 2015/2016 holiday period, I received an internship at Cubic Defense New Zealand (CDNZ), a branch of Cubic Global Defense. Here I was employed as an engineering graduate in the hardware team and was provided with a project to work on during the 10 weeks I was there. My project was to design and build a test system that can simulate all the inputs and outputs required to test the operation of CDNZ's vehicle system. To do this I produced a number of concept designs and began working on the systems schematic.
+        Although I did not quite manage to complete the schematic of the system, I made a lot of progress in the project overall, providing a solid base for the schematic, a clear front panel design to connect with the required devices, and managed to resolve a large number of uncertanties that were related to the project.
+      </p>
+    </div>
+    <!--Spraytime Furniture Finishers-->
+    <div class="col-sm-4">
+      <h3>Spraytime Furniture Finishers</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    
+  </div>
+</div>
+<!-- Footer -->
+<footer class="container-fluid bg-5 text-center">
+  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
+</footer>
+
+</body>
+</html>
