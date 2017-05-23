@@ -78,19 +78,20 @@
       margin-bottom: 0;
       font-size: 12px;
       letter-spacing: 5px;
-     /* border-bottom: 2px solid black;
-      border-left: 3px solid black;
-      border-right: 3px solid black;
-      border-top: 2px solid black;   */
   }
   .navbar-nav  li a:hover {
-      color: #1abc9c !important;
+      color: #59A5FF !important; /*#1abc9c original green color*/
   }
-
+  .navbar-default .navbar-brand:hover{
+      color: #59A5FF !important;
+  }
   .nav.navbar-nav.navbar-right li a {
       color:#E7E7E7;
   }
-  
+  nav.navbar .navbar-collapse ul.navbar-right li.active a {
+      color: #474e5d;
+      background: #E7E7E7;
+  }
   .navbar-default .navbar-brand{
       color:#E7E7E7;
   }
