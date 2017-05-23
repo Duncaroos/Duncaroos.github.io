@@ -16,51 +16,27 @@
       color: #474e5d;
       margin-top: 80px;
       font-family: 'Permanent Marker', cursive;
-     
-     /* border-bottom: dotted gray;
-      border-top: dotted gray;*/
-      
-     /* border-bottom:1px solid black;
-      border-left: 3px solid black;
-      border-right: 3px solid black; */
   }
   .bg-2 { 
       background-color: #474e5d; /* Dark Blue */
       color: #ffffff;
       font-family: Montserrat, sans-serif;
-     /* border-top: 1px solid black;
-      border-bottom:1px solid black;
-      border-left: 3px solid black;
-      border-right: 3px solid black;*/
   }
   .bg-3 { 
       background-color: #ffffff; /* White */
       color: #555555;
       font-family: Montserrat, sans-serif;
-      /*border-top: 1px solid black;
-      border-bottom:1px solid black;
-      border-left: 3px solid black;
-      border-right: 3px solid black;*/
   }
   .bg-4 { 
       background-color: #474e5d; /* Dark Blue */
       color: #ffffff;
       font-family: Montserrat, sans-serif;
-     /* border-top: 1px solid black;
-      border-bottom:1px solid black;
-      border-left: 3px solid black;
-      border-right: 3px solid black;*/
   }
   
   .bg-5 { 
       background-color: #2f2f2f; /* Black Gray */
       color: #fff;
-      font-family: Montserrat, sans-serif;
-     /* border-top: 1px solid black;
-      border-bottom:1px solid black;
-      border-left: 3px solid black;
-      border-right: 3px solid black; */
-      
+      font-family: Montserrat, sans-serif;      
   }
   .container-fluid {
       padding-top: 70px;
