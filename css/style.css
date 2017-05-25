@@ -75,12 +75,13 @@
       color:#E7E7E7; /*#d3d3d3   light grey*/
       text-decoration: underline;
   }
-  .bg-2 > p {
-      padding-left:100px;
-      padding-right:100px;
-      padding-bottom:40px;
-  }
-
+  @media screen and (min-width:480px){
+      .bg-2 > p {
+            padding-left:100px;
+            padding-right:100px;
+            padding-bottom:40px;
+        }
+   }
 .text-justify.margin3{
     margin-left: 10px;
     margin-right: 10px;
