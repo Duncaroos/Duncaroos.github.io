@@ -86,8 +86,7 @@
        .bg-2 > p{
            text-align:justify;
            text-justify: inter-word;
-           margin: 0 auto;
-           width:80%;
+           margin:auto;
        }
    }
 .text-justify.margin3{
